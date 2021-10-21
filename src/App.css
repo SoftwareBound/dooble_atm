@@ -1,0 +1,72 @@
+.main {
+  padding-top: 3vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 97vh;
+}
+
+.right_side {
+  text-align: right;
+}
+
+.atm_list {
+  margin-top: 5vh;
+  height: 86vh;
+  overflow-y: scroll hidden;
+
+  overflow-x: hidden;
+}
+
+.atm_item {
+  cursor: pointer;
+  padding-bottom: 1vh;
+  padding-top: 2vh;
+  border-bottom-style: ridge;
+  direction: rtl;
+}
+
+.input_box {
+  text-align: end;
+  width: inherit;
+}
+
+.bank_name_title {
+  font-weight: 700;
+}
